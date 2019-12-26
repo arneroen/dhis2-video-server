@@ -22,22 +22,29 @@ function saveVideos(){
 
 function addVideo(filename, title, langs, description, version) {
     const uuid = uuidv4();
-    videos[uuid] = {
-        "filename": filename,
-        "title": title,
-        "langs": langs,
+    videos.push({
+        "uid": uuid,
+        "fileName": filename,
+        "videoTitle": title,
+        "videoLanguages": langs,
         "description": description,
         "version": version
-    };
+    });
     saveVideos();
 }
-//addVideo("finished1.mp4", "Test video 1 title", ["nor", "en"], "Test video 1 description", "1.0.0");
-//addVideo("finished2.mp4", "Test video 2 title", ["nor", "en"], "Test video 2 description", "1.0.1");
+//addVideo("finished1.mp4", "Test video 1 title", "nor,en", "Test video 1 description", "1");
+//addVideo("finished2.mp4", "Test video 2 title", "nor,en", "Test video 2 description", "1");
 
-
+function getVideoInfo(uid) {
+    for (i = 0; i < videos.length; i++){
+        if (videos[i].uid === uid) {
+            return videos[i];
+        }
+    }
+}
 //statically serve files.
 app.get('/video/:videoId/info', function(req, res){
-    const videoInfo = videos[req.params.videoId];
+    const videoInfo = getVideoInfo(req.params.videoId);
     if (videoInfo) {
         res.send(videoInfo);
     } else {
@@ -46,10 +53,9 @@ app.get('/video/:videoId/info', function(req, res){
 })
 
 app.get('/video/:videoId', function(req, res){
-    console.log("WE GOT A REQUEST!");
-    const videoInfo = videos[req.params.videoId];
+    const videoInfo = getVideoInfo(req.params.videoId);
     if (videoInfo) {
-        const file = `${__dirname}/src/videos/${videoInfo.filename}`;
+        const file = `${__dirname}/src/videos/${videoInfo.fileName}`;
         res.download(file);
     } else {
         res.sendStatus(404);
