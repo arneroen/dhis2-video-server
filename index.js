@@ -22,18 +22,74 @@ function saveVideos(){
 
 function addVideo(filename, title, langs, description, version) {
     const uuid = uuidv4();
+    let languages = [];
+    for (i = 0; i < langs.length; i++){
+        languages.push({"languageName": langs[i], "index": "" + i});
+    }
     videos.push({
         "uid": uuid,
         "fileName": filename,
         "videoTitle": title,
-        "videoLanguages": langs,
+        "videoLanguages": languages,
         "description": description,
         "version": version
     });
     saveVideos();
 }
-//addVideo("finished1.mp4", "Test video 1 title", "nor,en", "Test video 1 description", "1");
-//addVideo("finished2.mp4", "Test video 2 title", "nor,en", "Test video 2 description", "1");
+
+/*addVideo(
+    "langTest.mp4",
+    "Language test video",
+    ["Norwegian", "English"],
+    "Language test video (long)",
+    "1"
+);*/
+
+/*addVideo(
+    "mafVideo1.mp4",
+    "Brestfeading: Food for Life (Duplicate)",
+    ["English"],
+    "Duplicated to extend list! Health promotion video about brestfeeding and reasons why it should be done.",
+    "1"
+);
+addVideo(
+    "mafVideo2.mp4",
+    "Warning signs in Pregnancy (Duplicate)",
+    ["English"],
+    "Duplicated to extend list! Information video about danger signs in pregnancy, and how to deal with them",
+    "1"
+);
+addVideo(
+    "mafVideo3.mp4",
+    "Neonatal Resuscitation (Duplicate)",
+    ["English"],
+    "Duplicated to extend list! Informational video on neonatal resuscitation",
+    "1"
+);
+addVideo(
+    "mafVideo4.mp4",
+    "What and when to feed your child (6 months to 2 years) (Duplicate)",
+    ["English"],
+    "Duplicated to extend list! Health promotion video on nutrition for children (6 months to 2 years)",
+    "1"
+);
+addVideo(
+    "mafVideo5.mp4",
+    "How to care for a newborn (duplicate)",
+    ["English"],
+    "Duplicated to extend list! Health promotion video on what to do and how to care for newborn baby.",
+    "1"
+);
+addVideo(
+    "WHO_ _In our hands_ - HIV self-testing in Malawi.mp4",
+    "HIV self-testing-kits (Duplicate)",
+    ["Chichewa"],
+    "Duplicated to extend list! Health promotion video on HIV self-testing kits.",
+    "1"
+);*/
+//addVideo("finished4.mp4", "Test video 3", "nor", "Test video 3. This is a long video. description", "1");
+//addVideo("finished1.mp4", "Test video 10(1) title", "nor,en", "Test video 10(1) description. More text here. We want looong text! yoyoyoyo this is quite fun isn't it? More text here. We want looong text! yoyoyoyo this is quite fun isn't it? More text here. We want looong text! yoyoyoyo this is quite fun isn't it?", "1");
+//addVideo("finished2.mp4", "Test video 8(2) title", "nor,en", "Test video 8(2) description", "1");
 
 function getVideoInfo(uid) {
     for (i = 0; i < videos.length; i++){
