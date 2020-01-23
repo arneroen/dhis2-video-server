@@ -20,7 +20,7 @@ function saveVideos(){
     fs.writeFileSync("videos.json", rawData);
 }
 
-function addVideo(filename, title, langs, description, version) {
+function addVideo(filename, title, langs, description, version, thumbFileName) {
     const uuid = uuidv4();
     let languages = [];
     for (i = 0; i < langs.length; i++){
@@ -32,7 +32,8 @@ function addVideo(filename, title, langs, description, version) {
         "videoTitle": title,
         "videoLanguages": languages,
         "description": description,
-        "version": version
+        "version": version,
+        "thumbnailFileName": thumbFileName
     });
     saveVideos();
 }
@@ -42,7 +43,8 @@ function addVideo(filename, title, langs, description, version) {
     "Language test video",
     ["Norwegian", "English"],
     "Language test video (long)",
-    "1"
+    "1",
+    "mafVideo1.png"
 );*/
 
 /*addVideo(
@@ -112,6 +114,16 @@ app.get('/video/:videoId', function(req, res){
     const videoInfo = getVideoInfo(req.params.videoId);
     if (videoInfo) {
         const file = `${__dirname}/src/videos/${videoInfo.fileName}`;
+        res.download(file);
+    } else {
+        res.sendStatus(404);
+    }
+})
+app.get('/thumbnail/:videoId', function(req, res){
+    const videoInfo = getVideoInfo(req.params.videoId);
+    console.log(videoInfo);
+    if (videoInfo) {
+        const file = `${__dirname}/src/thumbnails/${videoInfo.thumbnailFileName}`;
         res.download(file);
     } else {
         res.sendStatus(404);

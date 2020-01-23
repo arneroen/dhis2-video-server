@@ -1,1 +1,188 @@
-[{"uid":"2305a86d-69fe-4c3a-9edd-0f160c39c47a","fileName":"finished1.mp4","videoTitle":"Test video 1 title","videoLanguages":"nor,en","description":"Test video 1 description","version":"1"},{"uid":"d3c4c4c4-3fe9-43c4-9ae8-51e7083c024d","fileName":"finished2.mp4","videoTitle":"Test video 2 title","videoLanguages":"nor,en","description":"Test video 2 description","version":"1"}]
+[
+    {
+        "uid": "e6c0ccd0-074b-447a-9b4b-5b74f6802de2",
+        "fileName": "mafVideo1.mp4",
+        "videoTitle": "Brestfeading: Food for Life",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Health promotion video about brestfeeding and reasons why it should be done.",
+        "version": "1",
+        "thumbnailFileName": "mafVideo1.png"
+    },
+    {
+        "uid": "80d80b32-8f55-4ae4-a41a-426c0bbe67a8",
+        "fileName": "mafVideo2.mp4",
+        "videoTitle": "Warning signs in Pregnancy",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Information video about danger signs in pregnancy, and how to deal with them",
+        "version": "1",
+        "thumbnailFileName": "mafVideo2.png"
+    },
+    {
+        "uid": "176a1751-0245-45e8-8036-9f57011fc15d",
+        "fileName": "mafVideo3.mp4",
+        "videoTitle": "Neonatal Resuscitation",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Informational video on neonatal resuscitation",
+        "version": "1",
+        "thumbnailFileName": "mafVideo3.png"
+    },
+    {
+        "uid": "3f246473-6abb-4f77-992c-4f63fe717ba3",
+        "fileName": "mafVideo4.mp4",
+        "videoTitle": "What and when to feed your child (6 months to 2 years)",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Health promotion video on nutrition for children (6 months to 2 years)",
+        "version": "1",
+        "thumbnailFileName": "mafVideo4.png"
+    },
+    {
+        "uid": "878b88d2-9ecb-43c9-9da6-9f45bbb561d2",
+        "fileName": "mafVideo5.mp4",
+        "videoTitle": "How to care for a newborn",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Health promotion video on what to do and how to care for newborn baby.",
+        "version": "1",
+        "thumbnailFileName": "mafVideo5.png"
+    },
+    {
+        "uid": "90d23f83-dd12-4a56-a556-4cf55bf43db4",
+        "fileName": "WHO_ _In our hands_ - HIV self-testing in Malawi.mp4",
+        "videoTitle": "HIV self-testing-kits",
+        "videoLanguages": [
+            {
+                "languageName": "Chechewa",
+                "index": 0
+            }
+        ],
+        "description": "Health promotion video on HIV self-testing kits.",
+        "version": "1",
+        "thumbnailFileName": "hivSelfTest.png"
+    },
+    {
+        "uid": "4a7c573a-32a5-4166-a8b4-e0ebc2736385",
+        "fileName": "mafVideo1.mp4",
+        "videoTitle": "Brestfeading: Food for Life (Duplicate)",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Duplicated to extend list! Health promotion video about brestfeeding and reasons why it should be done.",
+        "version": "1",
+        "thumbnailFileName": "mafVideo1.png"
+    },
+    {
+        "uid": "04ccec1a-af07-4e3e-a079-091cc1ebe472",
+        "fileName": "mafVideo2.mp4",
+        "videoTitle": "Warning signs in Pregnancy (Duplicate)",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Duplicated to extend list! Information video about danger signs in pregnancy, and how to deal with them",
+        "version": "1",
+        "thumbnailFileName": "mafVideo2.png"
+    },
+    {
+        "uid": "b4bc6f87-d9b8-48f3-9c76-54fa4ac103c6",
+        "fileName": "mafVideo3.mp4",
+        "videoTitle": "Neonatal Resuscitation (Duplicate)",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Duplicated to extend list! Informational video on neonatal resuscitation",
+        "version": "1",
+        "thumbnailFileName": "mafVideo3.png"
+    },
+    {
+        "uid": "3850fbeb-fd31-4567-868a-dd46942879c5",
+        "fileName": "mafVideo4.mp4",
+        "videoTitle": "What and when to feed your child (6 months to 2 years) (Duplicate)",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Duplicated to extend list! Health promotion video on nutrition for children (6 months to 2 years)",
+        "version": "1",
+        "thumbnailFileName": "mafVideo4.png"
+    },
+    {
+        "uid": "ea141493-e65d-499d-b695-b5d96f198171",
+        "fileName": "mafVideo5.mp4",
+        "videoTitle": "How to care for a newborn (duplicate)",
+        "videoLanguages": [
+            {
+                "languageName": "English",
+                "index": 0
+            }
+        ],
+        "description": "Duplicated to extend list! Health promotion video on what to do and how to care for newborn baby.",
+        "version": "1",
+        "thumbnailFileName": "mafVideo5.png"
+    },
+    {
+        "uid": "41cb2652-0cc9-420b-a821-3c8250827ae2",
+        "fileName": "WHO_ _In our hands_ - HIV self-testing in Malawi.mp4",
+        "videoTitle": "HIV self-testing-kits (Duplicate)",
+        "videoLanguages": [
+            {
+                "languageName": "Chechewa",
+                "index": 0
+            }
+        ],
+        "description": "Duplicated to extend list! Health promotion video on HIV self-testing kits.",
+        "version": "1",
+        "thumbnailFileName": "hivSelfTest.png"
+    },
+    {
+        "uid": "96c66497-01ff-4288-9850-f85b1c661649",
+        "fileName": "langTest.mp4",
+        "videoTitle": "Language test video",
+        "videoLanguages": [
+            {
+                "languageName": "Norwegian",
+                "index": "0"
+            },
+            {
+                "languageName": "English",
+                "index": "1"
+            }
+        ],
+        "description": "Language test video (long)",
+        "version": "1",
+        "thumbnailFileName": "mafVideo1.png"
+    }
+]
