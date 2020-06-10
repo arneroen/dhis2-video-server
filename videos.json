@@ -11,7 +11,8 @@
         ],
         "description": "Health promotion video about brestfeeding and reasons why it should be done.",
         "version": "1",
-        "thumbnailFileName": "mafVideo1.png"
+        "thumbnailFileName": "mafVideo1.png",
+        "tags": "baby, nutrition, newborn"
     },
     {
         "uid": "80d80b32-8f55-4ae4-a41a-426c0bbe67a8",
@@ -25,7 +26,8 @@
         ],
         "description": "Information video about danger signs in pregnancy, and how to deal with them",
         "version": "1",
-        "thumbnailFileName": "mafVideo2.png"
+        "thumbnailFileName": "mafVideo2.png",
+        "tags": ""
     },
     {
         "uid": "176a1751-0245-45e8-8036-9f57011fc15d",
@@ -39,7 +41,8 @@
         ],
         "description": "Informational video on neonatal resuscitation",
         "version": "1",
-        "thumbnailFileName": "mafVideo3.png"
+        "thumbnailFileName": "mafVideo3.png",
+        "tags": "baby, newborn, CPR"
     },
     {
         "uid": "3f246473-6abb-4f77-992c-4f63fe717ba3",
@@ -53,7 +56,8 @@
         ],
         "description": "Health promotion video on nutrition for children (6 months to 2 years)",
         "version": "1",
-        "thumbnailFileName": "mafVideo4.png"
+        "thumbnailFileName": "mafVideo4.png",
+        "tags": "baby, food, feed "
     },
     {
         "uid": "878b88d2-9ecb-43c9-9da6-9f45bbb561d2",
@@ -67,7 +71,8 @@
         ],
         "description": "Health promotion video on what to do and how to care for newborn baby.",
         "version": "1",
-        "thumbnailFileName": "mafVideo5.png"
+        "thumbnailFileName": "mafVideo5.png",
+        "tags": ""
     },
     {
         "uid": "90d23f83-dd12-4a56-a556-4cf55bf43db4",
@@ -81,7 +86,8 @@
         ],
         "description": "Health promotion video on HIV self-testing kits.",
         "version": "1",
-        "thumbnailFileName": "hivSelfTest.png"
+        "thumbnailFileName": "hivSelfTest.png",
+        "tags": "AIDS, NRTI, ART"
     },
     {
         "uid": "4a7c573a-32a5-4166-a8b4-e0ebc2736385",
@@ -95,7 +101,8 @@
         ],
         "description": "Duplicated to extend list! Health promotion video about brestfeeding and reasons why it should be done.",
         "version": "1",
-        "thumbnailFileName": "mafVideo1.png"
+        "thumbnailFileName": "mafVideo1.png",
+        "tags": "baby, nutrition, newborn"
     },
     {
         "uid": "04ccec1a-af07-4e3e-a079-091cc1ebe472",
@@ -109,7 +116,8 @@
         ],
         "description": "Duplicated to extend list! Information video about danger signs in pregnancy, and how to deal with them",
         "version": "1",
-        "thumbnailFileName": "mafVideo2.png"
+        "thumbnailFileName": "mafVideo2.png",
+        "tags": ""
     },
     {
         "uid": "b4bc6f87-d9b8-48f3-9c76-54fa4ac103c6",
@@ -123,7 +131,8 @@
         ],
         "description": "Duplicated to extend list! Informational video on neonatal resuscitation",
         "version": "1",
-        "thumbnailFileName": "mafVideo3.png"
+        "thumbnailFileName": "mafVideo3.png",
+        "tags": "baby, newborn, CPR"
     },
     {
         "uid": "3850fbeb-fd31-4567-868a-dd46942879c5",
@@ -137,7 +146,8 @@
         ],
         "description": "Duplicated to extend list! Health promotion video on nutrition for children (6 months to 2 years)",
         "version": "1",
-        "thumbnailFileName": "mafVideo4.png"
+        "thumbnailFileName": "mafVideo4.png",
+        "tags": "baby, food, feed "
     },
     {
         "uid": "ea141493-e65d-499d-b695-b5d96f198171",
@@ -151,7 +161,8 @@
         ],
         "description": "Duplicated to extend list! Health promotion video on what to do and how to care for newborn baby.",
         "version": "1",
-        "thumbnailFileName": "mafVideo5.png"
+        "thumbnailFileName": "mafVideo5.png",
+        "tags": ""
     },
     {
         "uid": "41cb2652-0cc9-420b-a821-3c8250827ae2",
@@ -165,7 +176,8 @@
         ],
         "description": "Duplicated to extend list! Health promotion video on HIV self-testing kits.",
         "version": "1",
-        "thumbnailFileName": "hivSelfTest.png"
+        "thumbnailFileName": "hivSelfTest.png",
+        "tags": "AIDS, NRTI, ART"
     },
     {
         "uid": "96c66497-01ff-4288-9850-f85b1c661649",
@@ -183,6 +195,7 @@
         ],
         "description": "Language test video (long)",
         "version": "1",
-        "thumbnailFileName": "mafVideo1.png"
+        "thumbnailFileName": "mafVideo1.png",
+        "tags": ""
     }
 ]

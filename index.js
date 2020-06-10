@@ -20,7 +20,7 @@ function saveVideos(){
     fs.writeFileSync("videos.json", rawData);
 }
 
-function addVideo(filename, title, langs, description, version, thumbFileName) {
+function addVideo(filename, title, langs, description, version, thumbFileName, tags) {
     const uuid = uuidv4();
     let languages = [];
     for (i = 0; i < langs.length; i++){
@@ -33,7 +33,8 @@ function addVideo(filename, title, langs, description, version, thumbFileName) {
         "videoLanguages": languages,
         "description": description,
         "version": version,
-        "thumbnailFileName": thumbFileName
+        "thumbnailFileName": thumbFileName,
+        "tags": tags
     });
     saveVideos();
 }
@@ -52,42 +53,48 @@ function addVideo(filename, title, langs, description, version, thumbFileName) {
     "Brestfeading: Food for Life (Duplicate)",
     ["English"],
     "Duplicated to extend list! Health promotion video about brestfeeding and reasons why it should be done.",
-    "1"
+    "1",
+    "mafVideo1.png"
 );
 addVideo(
     "mafVideo2.mp4",
     "Warning signs in Pregnancy (Duplicate)",
     ["English"],
     "Duplicated to extend list! Information video about danger signs in pregnancy, and how to deal with them",
-    "1"
+    "1",
+    "mafVideo2.png"
 );
 addVideo(
     "mafVideo3.mp4",
     "Neonatal Resuscitation (Duplicate)",
     ["English"],
     "Duplicated to extend list! Informational video on neonatal resuscitation",
-    "1"
+    "1",
+    "mafVideo3.png"
 );
 addVideo(
     "mafVideo4.mp4",
     "What and when to feed your child (6 months to 2 years) (Duplicate)",
     ["English"],
     "Duplicated to extend list! Health promotion video on nutrition for children (6 months to 2 years)",
-    "1"
+    "1",
+    "mafVideo4.png"
 );
 addVideo(
     "mafVideo5.mp4",
     "How to care for a newborn (duplicate)",
     ["English"],
     "Duplicated to extend list! Health promotion video on what to do and how to care for newborn baby.",
-    "1"
+    "1",
+    "mafVideo5.png"
 );
 addVideo(
     "WHO_ _In our hands_ - HIV self-testing in Malawi.mp4",
     "HIV self-testing-kits (Duplicate)",
     ["Chichewa"],
     "Duplicated to extend list! Health promotion video on HIV self-testing kits.",
-    "1"
+    "1",
+    "hivSelfTest.png"
 );*/
 //addVideo("finished4.mp4", "Test video 3", "nor", "Test video 3. This is a long video. description", "1");
 //addVideo("finished1.mp4", "Test video 10(1) title", "nor,en", "Test video 10(1) description. More text here. We want looong text! yoyoyoyo this is quite fun isn't it? More text here. We want looong text! yoyoyoyo this is quite fun isn't it? More text here. We want looong text! yoyoyoyo this is quite fun isn't it?", "1");
